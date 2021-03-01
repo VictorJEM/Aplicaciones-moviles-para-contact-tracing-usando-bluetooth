@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="triage_age_spinner_labels">
+        <item>"0 a 10 años"</item>
+        <item>"11 a 20 años"</item>
+        <item>"21 a 30 años"</item>
+        <item>"31 a 40 años"</item>
+        <item>"41 a 50 años"</item>
+        <item>"51 a 60 años"</item>
+        <item>"61 a 65 años"</item>
+        <item>"mayor a 65 años"</item>
+    </string-array>
+</resources>

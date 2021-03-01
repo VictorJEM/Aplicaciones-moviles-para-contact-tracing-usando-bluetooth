@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="triage_age_spinner_labels">
+        <item>"0 to 10 years old"</item>
+        <item>"11 to 20 years old"</item>
+        <item>"21 to 30 years old"</item>
+        <item>"31 to 40 years old"</item>
+        <item>"41 to 50 years old"</item>
+        <item>"51 to 60 years old"</item>
+        <item>"61 to 65 years old"</item>
+        <item>"plus 65 years old"</item>
+    </string-array>
+
+    <string-array name="triage_age_spinner_values">
+        <item>"0–10"</item>
+        <item>"11–20"</item>
+        <item>"21–30"</item>
+        <item>"31–40"</item>
+        <item>"41–50"</item>
+        <item>"51–60"</item>
+        <item>"61–65"</item>
+        <item>"+65"</item>
+    </string-array>
+
+    <string-array name="triage_symptoms">
+        <item>""</item>
+        <item>"Fiebre alta"</item>
+        <item>"Dificultad respirando"</item>
+        <item>"Tos"</item>
+        <item>"Síntoma de gripe o resfriado"</item>
+    </string-array>
+</resources>

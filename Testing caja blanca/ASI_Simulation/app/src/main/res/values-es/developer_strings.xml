@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="debug_test_notification">Notificación de Prueba</string>
+    <string name="debug_devoptions_title">Opciones de Desarrollador</string>
+    <string name="debug_certpinning_enabled">Fijación de certificado activado</string>
+</resources>
