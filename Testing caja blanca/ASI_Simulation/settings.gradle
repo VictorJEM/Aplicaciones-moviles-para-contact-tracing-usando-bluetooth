@@ -1,5 +1,0 @@
-include ':dp3t'
-
-rootProject.name = "ASI_Simulation"
-include ':app'
-project(':dp3t').projectDir = new File(rootDir, 'dp3t-sdk/sdk/')
