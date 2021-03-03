@@ -80,28 +80,23 @@ ALTER TABLE public.hibernate_sequence OWNER TO dpppt;
 -- Data for Name: auth_codes; Type: TABLE DATA; Schema: public; Owner: dpppt
 --
 
-COPY public.auth_codes (id, value) FROM stdin;
-1	qh48uwe579
-2	4sl91juyxy
-3	ul7wyuhi9k
-4	xwe4w9lxa4
-5	ZFSWYSRIL9
-6	XLU357UZK3
-\.
-
+INSERT INTO public.auth_codes(id, value) VALUES (1, 'qh48uwe579');
+INSERT INTO public.auth_codes(id, value) VALUES (2, '4sl91juyxy');
+INSERT INTO public.auth_codes(id, value) VALUES (3, 'ul7wyuhi9k');
+INSERT INTO public.auth_codes(id, value) VALUES (4, 'xwe4w9lxa4');
+INSERT INTO public.auth_codes(id, value) VALUES (5, 'ZFSWYSRIL9');
+INSERT INTO public.auth_codes(id, value) VALUES (6, 'XLU357UZK3');
 
 --
 -- Data for Name: exposees; Type: TABLE DATA; Schema: public; Owner: dpppt
 --
 
-COPY public.exposees (id, canton, key, key_date, parroquia, provincia) FROM stdin;
-1	GUAYAQUIL	LJMaX+P79unB7QdzJnY8Al6RTW8UOanhbhlDbDeGYWM=	1609804800000	NUEVE DE OCTUBRE	GUAYAS
-2	MANTA	C/qT9Ny2/4A+V57t03stVAW20ZFt9UgGg8aO2okdGb4=	1609804800000	ELOY ALFARO	MANABI
-3	QUEVEDO	h1KQa9R5fJAtTkeU9dKy1A5DvrYsmOeP6tn0DrsEDHE=	1609804800000	GUAYACÁN	LOS RIOS
-4	LA MANÁ	v3RCnd2BTV7EfeiYc9t2qqU8pwPZnXG2OvZ6Dm0egQc=	1609891200000	GUASAGANDA (CAB.EN GUASAGANDA	COTOPAXI
-5	GUAYAQUIL	Hwb0moUVaTEmhQR1WcWzf7klht3aCBFu9AKl9zQoWsE=	1610064000000	NUEVE DE OCTUBRE	GUAYAS
-6	DURÁN	Ewk2n4qyzJ/mAbkLvg6HFNc2qKfcyK/9OraojN8oBQk=	1612915200000	EL RECREO	GUAYAS
-\.
+INSERT INTO public.exposees(id, canton, key, key_date, parroquia, provincia) VALUES (1,'GUAYAQUIL','LJMaX+P79unB7QdzJnY8Al6RTW8UOanhbhlDbDeGYWM=',1609804800000,'NUEVE DE OCTUBRE','GUAYAS');
+INSERT INTO public.exposees(id, canton, key, key_date, parroquia, provincia) VALUES (2,'MANTA','C/qT9Ny2/4A+V57t03stVAW20ZFt9UgGg8aO2okdGb4=',1609804800000,'ELOY ALFARO','MANABI');
+INSERT INTO public.exposees(id, canton, key, key_date, parroquia, provincia) VALUES (3,'QUEVEDO','h1KQa9R5fJAtTkeU9dKy1A5DvrYsmOeP6tn0DrsEDHE=',1609804800000,'GUAYACÁN','LOS RIOS');
+INSERT INTO public.exposees(id, canton, key, key_date, parroquia, provincia) VALUES (4,'LA MANÁ','v3RCnd2BTV7EfeiYc9t2qqU8pwPZnXG2OvZ6Dm0egQc=',1609891200000,'GUASAGANDA (CAB.EN GUASAGANDA','COTOPAXI');
+INSERT INTO public.exposees(id, canton, key, key_date, parroquia, provincia) VALUES (5,'GUAYAQUIL','Hwb0moUVaTEmhQR1WcWzf7klht3aCBFu9AKl9zQoWsE=',1610064000000,'NUEVE DE OCTUBRE','GUAYAS');
+INSERT INTO public.exposees(id, canton, key, key_date, parroquia, provincia) VALUES (6,'DURÁN','Ewk2n4qyzJ/mAbkLvg6HFNc2qKfcyK/9OraojN8oBQk=',1612915200000,'EL RECREO','GUAYAS');
 
 
 --
